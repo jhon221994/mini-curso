@@ -36,6 +36,10 @@ text-transform: uppercase;
 padding: 9px 23px;
 }
 
+main > section ul {
+    color: red;
+}
+
 #detalhes-container {
     fonte-wight: bold;
     list-style-type: none;
