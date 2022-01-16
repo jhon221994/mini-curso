@@ -10,8 +10,8 @@ gerarValorAleatorio = () => {
     return Math.floor(Math.random() * 671);
 }
 pegarPersonagem = () => {
-    let numeroAleatorioDois = gerarValorAleatorio();
-    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorioDois}`, {
+    let numeroAleatorio = gerarValorAleatorio();
+    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
         method: 'GET',
             headers: {
                 Accept: 'application/json',
@@ -27,13 +27,9 @@ pegarPersonagem = () => {
     });
 }
 
-gerarValorAleatorio = () => {
-    return Math.floor(Math.random() * 671);
-}
-
 pegarPersonagemDois = () => {
-    let numeroAleatorio = gerarValorAleatorio();
-    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
+    let numeroAleatorioDois = gerarValorAleatorio();
+    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorioDois}`, {
         method: 'GET',
             headers: {
                 Accept: 'application/json',
@@ -47,10 +43,6 @@ pegarPersonagemDois = () => {
         condicaoo.innerHTML = data.status;
 
     });
-}
-
-gerarValorAleatorio = () => {
-    return Math.floor(Math.random() * 671);
 }
 
 pegarPersonagemTres = () => {

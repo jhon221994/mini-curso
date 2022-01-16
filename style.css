@@ -11,14 +11,13 @@ body {
 main {
 align-items: center;
 display: flex;
-height: 150vh;
 justify-content: center;
 position: relative;
 }
 
 main > section img {
     height: 120px;
-    margin: 15px 0;
+    margin: 10px 0;
     width: 120px;
 }
 
@@ -41,7 +40,7 @@ main > section ul {
 }
 
 #detalhes-container {
-    fonte-wight: bold;
+    font-wight: bold;
     list-style-type: none;
     width: 90%;
 }
