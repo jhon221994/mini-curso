@@ -4,7 +4,6 @@ const botao = document.querySelector('button');
 const nomeDoPersonagem = document.querySelector('#nome');
 const especie = document.querySelector('#especie');
 const condiçao = document.querySelector('#condicao');
-const nomeDoPersonagemDois = document.queryselector('#nomme');
 
 
 
