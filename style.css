@@ -15,7 +15,7 @@ justify-content: center;
 position: relative;
 }
 
-main > section img {
+ main > section  img {
     height: 120px;
     margin: 10px 0;
     width: 120px;
@@ -35,7 +35,7 @@ padding: 9px 23px;
 text-transform: uppercase;
 }
 
-main > section ul {
+ main > section ul {
     color: red;
 }
 
