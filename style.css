@@ -29,11 +29,11 @@ border-radius: 4px;
 color: red;
 font-family:euclidbold;
 font-size:12px;
-font-wight: 500;
+font-wight: 50;
 letter-spacing:-0.6px;
 line-height: 20px;
-text-transform: uppercase;
 padding: 9px 23px;
+text-transform: uppercase;
 }
 
 main > section ul {
