@@ -64,7 +64,9 @@ pegarPersonagemTres = () => {
 }
 
 mostrarPersonagem = () => {
-    pegarPersonagem();pegarPersonagemDois();pegarPersonagemTres();
+    pegarPersonagem();
+    pegarPersonagemDois();
+    pegarPersonagemTres();
 }
 
 botao.onclick = mostrarPersonagem;
